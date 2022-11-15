@@ -1,0 +1,1 @@
+<p class="mt-5 mb-3 text-muted">&copy; <?php echo date('Y');?> Xogito. All rights reserved.</p>
