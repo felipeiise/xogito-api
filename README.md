@@ -6,25 +6,25 @@ Create an API that runs on PHP 7+, uses PostgreSQL for persistence and supports 
 You can use any libraries you deem appropriate. For this exercise, the main goal is to analyze your skills with pure PHP coding language. So, please, avoid using a Framework and focus on PHP language only.
 
 ## User Requirements
-* Can complete the registration step
+* Can complete the registration step ✅
 
-* Can login
+* Can login ✅
 
-* Can update their name
+* Can update their name ✅
 
 ## Administrator Requirements
-* Can do everything a User can do
+* Can do everything a User can do ✅
 
-* Can create a new account (Users and Administrators)
+* Can create a new account (Users and Administrators) ✅
 
-* Can deactivate an account
+* Can deactivate an account ✅
 
 ## Extra Credit
-* Support for composer installation of the API
+* Support for composer installation of the API ✅
 
-* Postman request collection for the API
+* Postman request collection for the API ✅
 
-* Documentation
+* Documentation ✅
 
 ## Delivery
 
