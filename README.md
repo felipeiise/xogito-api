@@ -34,7 +34,7 @@ The project should be added to a public Git repository in any Git host and a URL
 
 There's an online running demo for this repository at:
 ```
-http://www.viaentrega.com
+[http://www.viaentrega.com](http://www.viaentrega.com)
 ```
 
 # Install
@@ -67,7 +67,7 @@ mv .env.example .env
 And that's it, you can just go to the browser and navigate to:
 
 ```
-http://localhost/
+[http://localhost/](http://localhost/)
 ```
 
 There's is one initial administrator:
