@@ -45,9 +45,9 @@ Start the Docker building process (this can take several minutes)
 ```
 docker compose up -d --build
 ```
-Move to `src` folder in the `xogito-docker` folder
+Enter to recently created PHP container: `src` folder in the `xogito-docker` folder
 ```
-cd src
+docker exec -it php-srv bash
 ```
 And install the API project with composer (take care to copy the `dot` at the end of the line below)
 ```
