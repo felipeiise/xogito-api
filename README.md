@@ -45,7 +45,7 @@ Start the Docker building process (this can take several minutes)
 ```
 docker compose up -d --build
 ```
-Enter to recently created PHP container: `src` folder in the `xogito-docker` folder
+Enter to recently created PHP container:
 ```
 docker exec -it php-srv bash
 ```
