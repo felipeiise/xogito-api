@@ -1,3 +1,7 @@
-vendor/
+# Development workspace
+.idea/
 .DS_Store
+
+# Project files
+vendor/
 .env
