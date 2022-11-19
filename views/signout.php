@@ -2,9 +2,19 @@
 
 declare(strict_types=1);
 
+use App\Utils;
+
 if (isset($_COOKIE['jwt'])) {
     unset($_COOKIE['jwt']);
-    setcookie('jwt', '', -1, '/');
+    $cookie_options = [
+        'expires' => -1,
+        'path' => '/',
+        'domain' => $_SERVER['HTTP_HOST'],
+        'secure' => Utils::isSecure(),
+        'httponly' => true,
+        'samesite' => 'Strict'
+    ];
+    setcookie('jwt', '', $cookie_options);
 }
 
 ?>
