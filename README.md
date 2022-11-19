@@ -67,7 +67,7 @@ And that's it, you can just go to the browser and navigate to:
 
 [http://localhost/](http://localhost/)
 
-There's is one initial administrator:
+There's one initial administrator:
 
 Email: first_admin@email.com
 
